@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>linked-in</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- navbar -->
+  <nav class="navbar">
+    <div class="nav-left">
+        <a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
+
+
+        <div class="search-box">
+            <img src="images/search.png" alt="">
+            <input type="text" placeholder="Search">
+        </div>
+
+    </div>
+    <div class="nav-center">
+        <ul>
+            <li><a href="#" class="active-link"><img src="images/home.png" alt=""><span>Home</span></a></li>
+            <li><a href="#"><img src="images/network.png" alt=""><span>My Network</span></a></li>
+            <li><a href="#"><img src="images/jobs.png" alt=""><span>Jobs</span></a></li>
+            <li><a href="#"><img src="images/message.png" alt=""><span>Messaging</span></a></li>
+            <li><a href="#"><img src="images/notification.png" alt=""><span>Notifications</span></a></li>
+        </ul>
+    </div>
+    <div class="nav-right">
+        <div class="online">
+            <img src="images/user-1.png" alt="" class="nav-profile-img" onclick="toggleMenu()">
+        </div>
+    </div>
+    
+    <!-- profile dropdown menu -->
+ <div class="profile-menu-wrap" id="profileMenu">
+     <div class="profile-menu">
+        <div class="user-info">
+            <img src="images/user-1.png" >
+            <div>
+                <h3>Prasaad mpa</h3>
+                <a href="profile.html">See your profile</a>
+            </div>
+        </div>
+        <hr>
+        <a href="#" class="profile-menu-link">
+            <img src="images/setting.png" alt="">
+            <p>Settings & Privacy</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="images/help.png" alt="">
+            <p>Help & Support</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="images/display.png" alt="">
+            <p>Display & Accessiblity</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="images/logout.png" alt="">
+            <p>Logout</p>
+            <span>></span>
+        </a>
+     </div>
+ </div>
+
+  </nav>
+
+  <!--      navbar end -->
+
+
+  <div class="container">
+    <div class="profile-main">
+        <div class="profile-container">
+            <img src="images/cover-pic.png" width="100%">
+            <div class="profile-container-inner">
+                <img src="images/user-1.png" class="profile-pic">
+                <h1>ranjith</h1>
+                <b>Lead Front-end developer </b>
+                <p>mangalore,karnataka &middot; <a href="#">Contact info</a> </p>
+                <div class="mutual-connection">
+                    <img src="images/user-2.png" alt="">
+                    <span>1 mutual connection: Orlando Giggs</span>
+                </div>
+                <div class="profile-btn">
+                    <a href="#" class="primery-btn"><img src="images/connect.png" alt="">Connect</a>
+                    <a href="#"><img src="images/chat.png" alt="">Message</a>
+                </div>
+            </div>
+        </div>
+     <div class="profile-description">
+        <h2>About</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam est a ea provident expedita odit delectus quaerat, nihil ab natus nisi dignissimos illum cumque hic! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eius maxime magnam itaque corporis! Inventore explicabo nobis expedita ducimus cumque, officiis aliquam non esse unde?</p>
+        <a href="#" class="seemore-link">See more ...</a>
+     </div>
+  
+     <div class="profile-description">
+        <h2>Experience</h2>
+        <div class="profile-desc-row">
+            <img src="images/microsoft.png" alt="">
+            <div>
+                <h3>Lead Front-end developer</h3>
+                <b>Microsoft & full time</b>
+                <b>Feb 2024 - Present &middot; 1.5 years</b>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsam at esse architecto. Itaque ex expedita quisquam ipsum magnam dicta, est eveniet, sit accusamus dignissimos tempora totam voluptate praesentium eaque!</p>
+                <hr>
+            </div>
+        </div>
+        <div class="profile-desc-row">
+            <img src="images/slack.png" alt="">
+            <div>
+                <h3>Full Stack Developer</h3>
+                <b>Slack &middot;  full time</b>
+                <b>jun 2023 - december 2024 &middot; 2 years</b>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsam at esse architecto. Itaque ex expedita quisquam ipsum magnam dicta, est eveniet, sit accusamus dignissimos tempora totam voluptate praesentium eaque!</p>
+                <hr>
+            </div>
+        </div>
+        <div class="profile-desc-row">
+            <img src="images/google.png" alt="">
+            <div>
+                <h3>Web developer</h3>
+                <b>Google Inc &middot; Full-time</b>
+                <b>Feb 2015 - may 2018 &middot; 2.5 years</b>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsam at esse architecto. Itaque ex expedita quisquam ipsum magnam dicta, est eveniet, sit accusamus dignissimos tempora totam voluptate praesentium eaque!</p>
+            </div>
+        </div>
+        <hr>
+        <a href="#" class="experiences-link">Show all 7 experiences <img src="images/right-arrow.png" alt=""></a>
+     </div>
+ 
+     <div class="profile-description">
+        <h2>Education</h2>
+        <div class="profile-desc-row">
+            <img src="images/stanford.png" alt="">
+            <div>
+                <h3>Standford University</h3>
+                <b>BSEE, Electronic Enginnering</b>
+                <b>2018- 2022</b>
+                <hr>
+            </div>
+        </div>
+        <div class="profile-desc-row">
+            <img src="images/north.png" alt="">
+            <div>
+                <h3>Northwestern  University</h3>
+                <b>Computer Science</b>
+                <b>2015 - 2018</b>
+                <hr>
+            </div>
+        </div>
+        <div class="profile-desc-row">
+            <img src="images/mit.png" alt="">
+            <div>
+                <h3>Harvard  University</h3>
+                <b>Computer Science</b>
+                <b>2015 - 2018</b>
+            </div>
+        </div>
+     </div>
+   <div class="profile-description">
+      <h2>Skills</h2>
+      <a href="#" class="skills-btn">Leadership</a>
+      <a href="#" class="skills-btn">Web Design</a>
+      <a href="#" class="skills-btn">Development</a>
+      <a href="#" class="skills-btn">Communication</a>
+      <a href="#" class="skills-btn">UI</a>
+      <a href="#" class="skills-btn">planning</a>
+      <a href="#" class="skills-btn">Coding</a>
+      <a href="#" class="skills-btn">JavaScript</a>
+      <a href="#" class="skills-btn">Python</a>
+      <a href="#" class="skills-btn">Enterprenuorship</a>
+   </div>
+   <div class="profile-description">
+    <h2>Languages</h2>
+    <a href="#" class="lang-btn">Kannada</a>
+    <a href="#" class="lang-btn">English</a>
+    <a href="#" class="lang-btn">Hindi</a>
+ </div>
+
+
+ </div>
+
+      <!-- profile sidebar -->
+        <div class="profile-sidebar">
+            <div class="sidebar-ad">
+                <small>Ad &middot; &middot; &middot;</small>
+                <p>
+                    Master the 5 principle of web design
+                </p>
+                <div>
+                    <img src="images/user-1.png" alt="">
+                    <img src="images/mi-logo.png" alt="">
+                </div>
+                <b>Brand and Demand in Xiaomi</b>
+                <a href="#" class="ad-link">Learn More</a>
+            </div>
+            <div class="sidebar-people">
+                <h3>People you may know</h3>
+                <div class="sidebar-people-row">
+                    <img src="images/user-3.png" alt="">
+                    <div>
+                        <h2>Samuel tony</h2>
+                        <p>Head of marketing at Alibaba</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/user-4.png" alt="">
+                    <div>
+                        <h2>Benjamin leo</h2>
+                        <p>Head of marketing at Alibaba</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/user-5.png" alt="">
+                    <div>
+                        <h2>steave Greg</h2>
+                        <p>Head of marketing at Alibaba</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/user-4.png" alt="">
+                    <div>
+                        <h2>Martin Lewis</h2>
+                        <p>Head of marketing at Alibaba</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/user-1.png" alt="">
+                    <div>
+                        <h2>Clarence</h2>
+                        <p>Head of marketing at Alibaba</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+            </div>
+       </div>
+  </div>
+
+<div class="profile-footer">
+    <div class="sidebar-usefull-links">
+        <a href="#">About</a>
+        <a href="#">Accessiblity</a>
+        <a href="#">Help Center</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Advertising</a>
+        <a href="#">Get the app</a>
+        <a href="#">More</a>
+
+        <div class="copyright">
+            <img src="images/logo.png" alt="">
+            <p>Linkedup &#169; 2024 All right reserved</p>
+        </div>
+     </div> 
+</div>
+
+
+  <script>
+    let profileMenu =document.getElementById("profileMenu");
+
+    function toggleMenu(){
+        profileMenu.classList.toggle("open-menu");
+    }
+  </script>
+</body>
+</html>
